@@ -1,0 +1,159 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css');
+body{
+background-color: rgb(15, 1, 31);
+}
+.mainContainer, .container1, .container2, .container3, .container4, .container5, .container6{
+padding: 10px;
+border-radius: 5px;
+grid-gap: 50px;
+display: grid;
+grid-template: repeat(auto-fit,minmax(300px,400px))/repeat(auto-fit,minmax(300px,15fr));
+border: 2px solid red; 
+}
+.box1_1{
+padding: 10px;
+border: 2px solid red;
+border-radius: 10px;
+width: 200px;
+height: 70px;
+}
+.box1_2{
+color: aliceblue;
+font-size: 30px;
+border-bottom: 2px solid red;
+width: 250px;
+}
+.box1_3{
+margin: 7px;
+box-shadow: 9px 8px 7px rgb(111, 0, 255);
+text-align: center;
+justify-items: center;
+color: blueviolet;
+border: 3px solid rgb(239, 236, 241);
+background-color: rgb(35, 5, 68);
+border-radius: 19px;
+width: 200px;
+height: 280px;
+padding: 10px;
+
+}
+.box1_4{
+color: aliceblue;
+font-size: 30px;       
+}
+.box1_5{
+display: flex;
+text-align: center;
+}
+.box2_1{
+margin-right: 25px;
+border: 3px solid rgb(35, 5, 68);
+background-color: rgb(35, 5, 68);
+border-radius: 9% 20% 5% 40%;
+left: 300px;
+top: 10px;
+width: 350px;
+height: 360px;
+}
+.box2_2{
+color: aliceblue;
+font-size: 30px;
+border-bottom: 2px solid red;
+width: 250px;
+}
+img{
+margin: 10px;
+border: 3px solid aliceblue;  
+width: 300px;
+left: 10px;
+border-radius: 15% 20% 10% 20%;
+position: relative;
+box-shadow: 9px 8px 7px rgb(111, 0, 255);
+}
+.box3{
+width: 250px;
+height: 290px;
+border: 2px solid red;
+border-color:  aliceblue;
+background: linear-gradient(65deg, #d9ff00, rgb(236, 7, 7), #03020a 80%);
+border-radius: 10% 30% 0%;
+text-align: center;
+}
+ol li a{
+    font-size: 100px;
+}
+h2{
+padding: 0%;
+color: aliceblue;
+font-size: 20px;
+border-bottom: 2px solid red;
+width: 250px;
+text-align: start;
+}
+ol li {
+padding: 6px;
+justify-content: space-evenly;
+color: rgb(204, 217, 230);
+border: 2 solid whitesmoke;
+list-style: none;
+display: flex;
+float: left;
+}    
+ol li a{
+font-size: 20px;
+color: aliceblue;
+align-items: center;
+justify-content: center;
+text-decoration: none;
+}
+h1{
+padding: 0%;
+color: aliceblue;
+font-size: 40px;
+border-bottom: 2px solid red;
+width: 350px;
+text-align: start;
+}
+.box4_1{
+padding-left: 20px;
+width: 200px;
+height: 150px;
+border-radius: 30px;
+border: 2px solid red;
+text-align: start;
+justify-content: start;
+}
+.box4_2{
+
+padding: 9px;
+width: 310px;
+height: 320px;
+background-color: rgb(35, 5, 68);
+border-radius: 9% 20% 5% 40%;
+border-radius: 30px;
+border: 2px solid red;
+}
+li{
+margin: 0px;
+color: rgb(226, 43, 43);
+list-style: none;
+font-size: 15px;
+
+}
+li li{
+margin: 0px;
+color: rgb(22, 211, 179);
+list-style: none;
+border-bottom: 1px solid red;
+font-size: 10px;
+}
+.box5_1{
+padding-left: 20px;
+width: 300px;
+height: 150px;
+border-radius: 30px;
+border: 2px solid red;
+text-align: start;
+justify-content: start;
+}
